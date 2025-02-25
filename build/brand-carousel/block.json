@@ -1,0 +1,77 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "brand-carousel/brand-carousel",
+  "version": "1.0.0",
+  "title": "Logo Carousel",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "brand logo Carousel",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "brands": {
+      "type": "array",
+      "default": []
+    },
+    "spaceBetweenDesktop": {
+      "type": "number",
+      "default": 30
+    },
+    "spaceBetweenTablet": {
+      "type": "number",
+      "default": 20
+    },
+    "spaceBetweenMobile": {
+      "type": "number",
+      "default": 10
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": true
+    },
+    "arrows": {
+      "type": "boolean",
+      "default": true
+    },
+    "dots": {
+      "type": "boolean",
+      "default": false
+    },
+    "enable_mouse_control": {
+      "type": "boolean",
+      "default": true
+    },
+    "infinite": {
+      "type": "boolean",
+      "default": true
+    },
+    "sliderDirection": {
+      "type": "string",
+      "default": "ltr"
+    },
+    "normalDotColor": {
+      "type": "string",
+      "default": "#cccccc"
+    },
+    "activeDotColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "arrowIconColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "arrowBgColor": {
+      "type": "string",
+      "default": "#ffffff"
+    }
+  },
+  "textdomain": "brand-logo",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

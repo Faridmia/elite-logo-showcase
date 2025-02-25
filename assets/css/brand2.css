@@ -1,0 +1,71 @@
+body .rbt-brand-area .brand-style-3 {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start !important;
+}
+.brand-style-3 li {
+	flex-basis: 14.28%;
+	text-align: center;
+}
+
+.brand-style-3 li img {
+	max-height: 110px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.brand-style-3 li {
+		flex-basis: 25%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.brand-style-3 li {
+		flex-basis: 25%;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.brand-style-3 li {
+		flex-basis: 33.33%;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.brand-style-3 li {
+		flex-basis: 50%;
+	}
+}
+.brand-style-3 li a {
+	display: block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.brand-style-3 li a img {
+		max-height: 100px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.brand-style-3 li a img {
+		max-height: 80px;
+	}
+}
+.brand-style-3.variation-2 li {
+	flex-basis: 25%;
+	text-align: center;
+}
+@media only screen and (max-width: 767px) {
+	.brand-style-3.variation-2 li {
+		flex-basis: 33.33%;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.brand-style-3.variation-2 li {
+		flex-basis: 50%;
+	}
+}
+
+.brand-style-3 {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start !important;
+}

@@ -1,0 +1,39 @@
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/brand-logo/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.brand-style-3 {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+  justify-content: flex-start !important;
+}
+
+.brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--brand-logo-spacing, 100px);
+}
+@media (max-width: 1024px) {
+  .brand-list {
+    gap: var(--brand-logo-spacing-tablet, 20px);
+  }
+}
+@media (max-width: 768px) {
+  .brand-list {
+    gap: var(--brand-logo-spacing-mobile, 10px);
+  }
+}
+
+.brand-item {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

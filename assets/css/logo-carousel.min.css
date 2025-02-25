@@ -1,0 +1,405 @@
+.elitelogo-section-padding {
+	padding: 70px 0;
+}
+.elitelogo-btn-primary {
+	padding: 10px 15px;
+	outline: 0;
+	border: none;
+	background: #2156f3;
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	cursor: pointer;
+	font-family: inherit;
+}
+.elitelogo-logoCarousel-box-871 {
+	background-color: #fff;
+	max-height: 143px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.elitelogo-logoCarousel-wrapper-871 .owl-theme .owl-nav button {
+	border-radius: 5px !important;
+	height: 35px !important;
+	width: 35px !important;
+	background-color: var(--arrow-bg, #d1a062) !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.elitelogo-logoCarousel-wrapper-871 .owl-theme .owl-nav:hover button {
+	background-color: var(--arrow-bg, #d1a062) !important;
+}
+
+.elitelogo-logoCarousel-wrapper-871 .owl-theme .owl-nav {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 !important;
+}
+.elitelogo-logoCarousel-wrapper-871 .owl-theme .owl-nav button.owl-prev {
+	margin-left: -16px;
+}
+.elitelogo-logoCarousel-wrapper-871 .owl-theme .owl-nav button.owl-next {
+	margin-right: -16px;
+}
+.elitelogo-logoCarousel-wrapper-871 .owl-theme .owl-nav button.owl-next span,
+.elitelogo-logoCarousel-wrapper-871 .owl-theme .owl-nav button.owl-prev span {
+	font-size: 30px;
+	color: var(--arrow-color, #fff);
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+
+.elitelogo-logoCarousel-box-871 img {
+	max-width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+.elitelogo-logoCarousel-box-871 img:focus {
+	outline: 0;
+}
+.elitelogo-logoCarousel-box-872 {
+	padding: 10px;
+}
+.elitelogo-logoCarousel-wrapper-872 .owl-theme .owl-nav {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 !important;
+}
+.elitelogo-logoCarousel-wrapper-872 .owl-theme .owl-nav button.owl-next span,
+.elitelogo-logoCarousel-wrapper-872 .owl-theme .owl-nav button.owl-prev span {
+	font-size: 36px;
+	color: #8d8d8d;
+	font-weight: 400;
+	margin-bottom: 6px;
+}
+.elitelogo-logoCarousel-wrapper-872 .owl-theme .owl-nav button.owl-next:hover,
+.elitelogo-logoCarousel-wrapper-872 .owl-theme .owl-nav button.owl-prev:hover {
+	background-color: transparent;
+}
+.elitelogo-logoCarousel-box-872 img {
+	max-width: 100%;
+	height: 140px;
+	object-fit: contain;
+	filter: grayscale(1);
+}
+.elitelogo-logoCarousel-box-872 img:hover {
+	filter: grayscale(0);
+}
+#elitelogo-logoCarousel-section-873 {
+	background-color: rgb(243 255 251 / 50%);
+	background-blend-mode: overlay;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.elitelogo-logoCarousel-box-873 img {
+	width: 100%;
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	transform: scale(0.9);
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-ms-transition: 0.4s;
+	-o-transition: 0.4s;
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	-o-transform: scale(0.9);
+}
+.elitelogo-logoCarousel-box-873:hover img {
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+}
+.elitelogo-logoCarousel-wrapper-873 .owl-theme .owl-nav {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 !important;
+}
+.elitelogo-logoCarousel-wrapper-873 .owl-theme .owl-nav button.owl-prev {
+	margin-left: -10px;
+}
+.elitelogo-logoCarousel-wrapper-873 .owl-theme .owl-nav button.owl-next {
+	margin-right: -10px;
+}
+.elitelogo-logoCarousel-wrapper-873 .owl-theme .owl-nav button.owl-next span,
+.elitelogo-logoCarousel-wrapper-873 .owl-theme .owl-nav button.owl-prev span {
+	font-size: 30px;
+	color: #333;
+	font-weight: 400;
+	margin-bottom: 4px;
+}
+.elitelogo-logoCarousel-wrapper-873 .owl-theme .owl-nav button.owl-next:hover,
+.elitelogo-logoCarousel-wrapper-873 .owl-theme .owl-nav button.owl-prev:hover {
+	background-color: transparent;
+}
+#elitelogo-logoCarousel-section-874 {
+	background-color: rgba(0, 0, 0, 0.5);
+	background-blend-mode: overlay;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.elitelogo-logoCarousel-box-874 {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 8px 3px 15px rgb(255 255 255 / 30%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	min-height: 130px;
+	padding: 10px;
+}
+.elitelogo-logoCarousel-box-874:hover {
+	box-shadow: 8px 3px 25px rgb(255 255 255 / 40%);
+}
+.elitelogo-logoCarousel-box-874 img {
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-ms-transition: 0.4s;
+	-o-transition: 0.4s;
+	border-radius: 10px;
+}
+.elitelogo-logoCarousel-box-874:hover img {
+	transform: scale(0.9);
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+}
+.elitelogo-logoCarousel-wrapper-874 .owl-theme .owl-dots .owl-dot.active span,
+.elitelogo-logoCarousel-wrapper-874 .owl-theme .owl-dots .owl-dot:hover span {
+	transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-o-transform: scale(1.3);
+}
+#elitelogo-logoCarousel-section-875 {
+	background-color: rgba(51, 51, 51, 0.616);
+	background-blend-mode: overlay;
+	background-position: center;
+	background-size: cover;
+}
+.elitelogo-logoCarousel-section-875 {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+.elitelogo-logoCarousel-left-875 {
+	width: 45%;
+}
+.elitelogo-logoCarousel-wrapper-875 {
+	width: 100%;
+}
+.elitelogo-logoCarousel-box-875 {
+	background-color: #fff;
+	text-align: center;
+	margin: 1px;
+	padding: 20px;
+}
+.elitelogo-logoCarousel-box-875 figure {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.elitelogo-logoCarousel-box-875 figure img.mainLogo {
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-ms-transition: 0.4s;
+	-o-transition: 0.4s;
+}
+.elitelogo-logoCarousel-box-875 figure:hover img.mainLogo {
+	transform: translateY(-100%);
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	-o-transform: translateY(-100%);
+}
+.elitelogo-logoCarousel-box-875 figure img.altLogo {
+	position: absolute;
+	opacity: 0;
+	transition: 0.4s;
+	transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	-o-transform: translateY(100%);
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-ms-transition: 0.4s;
+	-o-transition: 0.4s;
+}
+.elitelogo-logoCarousel-box-875 figure:hover img.altLogo {
+	opacity: 1;
+	transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+}
+.elitelogo-logoCarousel-wrapper-875 .owl-carousel {
+	position: relative;
+}
+.elitelogo-logoCarousel-wrapper-875 .owl-theme .owl-nav {
+	margin-top: 0;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 0;
+	top: calc(50% - 15px);
+	width: 100%;
+}
+.elitelogo-logoCarousel-wrapper-875 .owl-theme .owl-nav button {
+	width: 35px;
+	background-color: #fefefe !important;
+	border: 2px solid #0b21b2 !important;
+	height: 35px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin: 0 !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.elitelogo-logoCarousel-wrapper-875 .owl-theme .owl-nav button.owl-prev {
+	position: absolute !important;
+	left: -15px !important;
+}
+.elitelogo-logoCarousel-wrapper-875 .owl-theme .owl-nav button.owl-next {
+	position: absolute !important;
+	right: -5px !important;
+}
+.elitelogo-logoCarousel-wrapper-875 .owl-theme .owl-nav button.owl-next span,
+.elitelogo-logoCarousel-wrapper-875 .owl-theme .owl-nav button.owl-prev span {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 4px;
+}
+@media (max-width: 900px) {
+	.elitelogo-logoCarousel-section-875 {
+		flex-direction: column;
+	}
+	.elitelogo-logoCarousel-left-875 {
+		width: 100%;
+		padding: 0 20px;
+	}
+	.elitelogo-logoCarousel-wrapper-875 {
+		width: 100%;
+		padding: 0 20px;
+	}
+}
+.elitelogo-logoCarousel-880 h1 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.elitelogo-logoCarousel-image-880 {
+	border: 1px dotted #ddd;
+}
+.elitelogo-logoCarousel-image-880 img {
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s ease-in-out;
+}
+.elitelogo-logoCarousel-image-880:hover img {
+	transform: scale(1.2);
+}
+.elitelogo-logoCarousel-880 .splide__pagination__page.is-active {
+	transform: scale(1.4);
+	background: #e6edff;
+}
+.owl-theme .owl-nav button.owl-next,
+.owl-theme .owl-nav button.owl-prev {
+	outline: 0 !important;
+}
+.owl-theme .owl-dots .owl-dot {
+	outline: 0 !important;
+}
+.elitelogo-logoCarousel-wrapper-871 a,
+.elitelogo-logoCarousel-wrapper-872 a,
+.elitelogo-logoCarousel-wrapper-873 a,
+.elitelogo-logoCarousel-wrapper-874 a,
+.elitelogo-logoCarousel-wrapper-875 a .elitelogo-logoCarousel-wrapper-880 a {
+	cursor: pointer;
+}
+.elitelogo-logoCarousel-wrapper-871 .owl-theme .owl-nav,
+.elitelogo-logoCarousel-wrapper-872 .owl-theme .owl-nav,
+.elitelogo-logoCarousel-wrapper-873 .owl-theme .owl-nav {
+	cursor: pointer;
+}
+.elitelogo-logoCarousel-wrapper-871 .owl-theme .owl-dots button,
+.elitelogo-logoCarousel-wrapper-872 .owl-theme .owl-dots button,
+.elitelogo-logoCarousel-wrapper-874 .owl-theme .owl-dots button,
+.elitelogo-logoCarousel-wrapper-880 .owl-theme .owl-dots button {
+	background: unset !important;
+}
+.owl-carousel .owl-stage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.elitelogo-logoCarousel-box-871,
+.elitelogo-logoCarousel-box-872 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.owl-carousel .owl-item img {
+	width: inherit !important;
+}
+
+.elitelogo-logoCarousel-box-871,
+.elitelogo-logoCarousel-box-872,
+.elitelogo-logoCarousel-box-873 img,
+.elitelogo-logoCarousel-box-874,
+.elitelogo-logoCarousel-box-875,
+.elitelogo-logoCarousel-image-880 {
+	transition: all linear 0.3s;
+}
+
+.elitelogo-logoCarousel-wrapper-871 .owl-dots {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -45px;
+}
+
+.elitelogo-logoCarousel-box-871 .owl-theme .owl-dots .owl-dot span {
+	background: var(--normal-dot-color, #D6D6D6);
+}
+
+.elitelogo-logoCarousel-box-871 .owl-theme .owl-dots .owl-dot:hover span,
+.elitelogo-logoCarousel-box-871 .owl-theme .owl-dots .owl-dot.active span {
+	background: var(--active-dot-color, #869791);
+}

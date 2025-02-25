@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "brand-logo/brand-logo",
+  "version": "1.0.0",
+  "title": "Brand Logo",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "brand logo block",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "brands": {
+      "type": "array",
+      "default": []
+    },
+    "spaceBetweenDesktop": {
+      "type": "number",
+      "default": 30
+    },
+    "spaceBetweenTablet": {
+      "type": "number",
+      "default": 20
+    },
+    "spaceBetweenMobile": {
+      "type": "number",
+      "default": 10
+    }
+  },
+  "textdomain": "brand-logo",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

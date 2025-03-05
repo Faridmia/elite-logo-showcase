@@ -310,7 +310,7 @@ const Edit = ({ attributes, setAttributes }) => {
 			</InspectorControls>
 
 			{/* Block Content */}
-			<div {...useBlockProps({ className: "elite-logo-showcase-block" })}>
+			<div {...useBlockProps({ className: "elite-logo-showcase-block brand-logo-block" })}>
 				{brands.length === 0 ? (
 					<div className="brand-upload-container">
 						<p>

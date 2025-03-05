@@ -5,7 +5,7 @@
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
 import { useBlockProps } from "@wordpress/block-editor";
-
+import { __ } from "@wordpress/i18n";
 /**
  * The save function defines the way in which the different attributes should
  * be combined into the final markup, which is then serialized by the block
@@ -53,9 +53,6 @@ const Save = (props) => {
 	return (
 		<div {...useBlockProps.save()}>
 			<div className={`elitelosh-testimonial-company-slider ${dotextra_class}`}>
-			<div class="elitelosh-testimonial-company-slider-text">
-				<p>We're Trusted by more than <span class="counter">1000</span>+ companies</p>
-			</div>
 			<div class="swiper" data-logoone={JSON.stringify(changedAtts)}>
 				<div class="swiper-wrapper" style={{
                     "--arrow-bg": arrowBgColor, // CSS variable use korlam
@@ -76,7 +73,8 @@ const Save = (props) => {
 					</div>
 						))
 					) : (
-						<p>No brands available</p>
+						<p>{__("No brands available", "elite-logo-showcase")}</p>
+
 					)}
 				</div>
 				

@@ -4951,16 +4951,24 @@ const Save = props => {
   let brandsData = JSON.stringify(brands, null, 2);
   // Log the brands and check the data
   const parsedBrands = JSON.parse(brandsData);
+  let dotextra_class = changedAtts.dots ? "elitelosh-dot" : "";
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
     ..._wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.useBlockProps.save(),
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "elitelogo-logoCarousel-wrapper-871",
-      id: "logo-sliderone",
-      "data-logoone": JSON.stringify(changedAtts),
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "elitelogo-logoCarousel-box-871",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "owl-carousel owl-theme",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: `elitelosh-testimonial-company-slider ${dotextra_class}`,
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        class: "elitelosh-testimonial-company-slider-text",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
+          children: ["We're Trusted by more than ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+            class: "counter",
+            children: "1000"
+          }), "+ companies"]
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        class: "swiper",
+        "data-logoone": JSON.stringify(changedAtts),
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          class: "swiper-wrapper",
           style: {
             "--arrow-bg": arrowBgColor,
             // CSS variable use korlam
@@ -4969,11 +4977,9 @@ const Save = props => {
             "--normal-dot-color": normalDotColor
           },
           children: parsedBrands && parsedBrands.length > 0 ? parsedBrands.map((brand, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "elitelogo-logoCarousel-item",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-              href: brand.url,
-              target: "_blank",
-              rel: "noopener noreferrer",
+            class: "swiper-slide",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              class: "elitelosh-company-logo",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
                 src: brand.url || 'path_to_default_image.jpg' // Ensure URL is used as image source
                 ,
@@ -4983,8 +4989,14 @@ const Save = props => {
           }, index)) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
             children: "No brands available"
           })
-        })
-      })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          class: "swiper-pagination"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          class: "swiper-button-prev"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          class: "swiper-button-next"
+        })]
+      })]
     })
   });
 };

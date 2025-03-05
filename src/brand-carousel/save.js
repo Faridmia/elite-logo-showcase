@@ -47,40 +47,47 @@ const Save = (props) => {
 	let brandsData = JSON.stringify(brands, null, 2); 
 	// Log the brands and check the data
 	const parsedBrands = JSON.parse(brandsData); 
+	let dotextra_class = changedAtts.dots ? "elitelosh-dot" : "";
 
 
 	return (
 		<div {...useBlockProps.save()}>
-			<div
-				className="elitelogo-logoCarousel-wrapper-871"
-				id="logo-sliderone"
-				data-logoone={JSON.stringify(changedAtts)} 
-			>
-				<div className="elitelogo-logoCarousel-box-871">
-					<div className="owl-carousel owl-theme" style={{
+			<div className={`elitelosh-testimonial-company-slider ${dotextra_class}`}>
+			<div class="elitelosh-testimonial-company-slider-text">
+				<p>We're Trusted by more than <span class="counter">1000</span>+ companies</p>
+			</div>
+			<div class="swiper" data-logoone={JSON.stringify(changedAtts)}>
+				<div class="swiper-wrapper" style={{
                     "--arrow-bg": arrowBgColor, // CSS variable use korlam
                     "--arrow-color": arrowIconColor,
                     "--active-dot-color": activeDotColor,
                     "--normal-dot-color": normalDotColor,
                 }}>
-						{parsedBrands && parsedBrands.length > 0 ? (
+					
+				{parsedBrands && parsedBrands.length > 0 ? (
 							parsedBrands.map((brand, index) => (
-								<div key={index} className="elitelogo-logoCarousel-item">
-									<a href={brand.url} target="_blank" rel="noopener noreferrer">
-										<img
-											src={brand.url || 'path_to_default_image.jpg'} // Ensure URL is used as image source
-											alt={brand.alt || 'Brand Logo'}
-										/>
-									</a>
-								</div>
-							))
-						) : (
-							<p>No brands available</p>
-						)}
+					<div class="swiper-slide" key={index}>
+						<div class="elitelosh-company-logo">
+							<img
+								src={brand.url || 'path_to_default_image.jpg'} // Ensure URL is used as image source
+								alt={brand.alt || 'Brand Logo'}
+							/>
+						</div>
 					</div>
+						))
+					) : (
+						<p>No brands available</p>
+					)}
 				</div>
+				
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
 			</div>
 		</div>
+		</div>
+
+		
 	);
 };
 
